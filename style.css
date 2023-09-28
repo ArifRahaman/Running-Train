@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.sky img{
+    height: 100vh;
+    width: 230vh;
+}
+.train img {
+    position: relative;
+    height: 20vh;
+    /* Change this value to your desired height */
+    width: 39vh;
+    bottom: 43vh;
+    align-items: center;
+    left: 45vh;
+}
+.ground img{
+    height: 16vh;
+    position: relative;
+    bottom:48vh;
+}
+   hr.zebra::before {
+       content: "";
+       position: absolute;
+       top: 52%;
+       left: 0;
+       width: 100%;
+       height: 1%;
+       background: repeating-linear-gradient(45deg, #070101, #080808 4px, #525252 4px, #8a8d8a 8px);
+       transform: translateY(-50%);
+     
+   }
+
+
+
+   * {
+       margin: 0;
+       padding: 0;
+   }
+
+  /* Apply the transform to move the sky background backward */
+  .sky img {
+      height: 100vh;
+      width: 1200vh;
+      /* Adjust the width as needed */
+      animation: skyMoveBackward 70s linear infinite;
+      /* Adjust the duration as needed */
+  }
+
+  @keyframes skyMoveBackward {
+      0% {
+          transform: translateX(0);
+      }
+
+      100% {
+          transform: translateX(-100%);
+          /* Move the sky background to the left */
+      }
+  }
+
+   .train-container {
+       position: relative;
+       /* Create a container for the train image */
+   }
+
+   .train img {
+       height: 45vh;
+       width: 34vh;
+   }
+
+hr.zebra::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 1%;
+    background: repeating-linear-gradient(45deg, #070101, #080808 4px, #525252 4px, #8a8d8a 8px);
+    transform: translateY(-50%);
+   
+}
+
+
+@keyframes moveBackward {
+    from {
+        transform: translateY(-50%);
+    }
+
+    to {
+        transform: translateY(-150%);
+        /* Move it upward to give the illusion of moving backward */
+    }
+}
+
+   .ground img {
+       height: 16vh;
+   }
+   /* Keep your existing CSS for .train img and adjust the height and width if needed */
+
+   /* Apply the transform to move the ground backward */
+
+/* Keep your existing CSS for .ground img and adjust the height and width if needed */
+
+/* Apply rotation transformation to the wheel elements */
+
+/* Keep your existing CSS for .train img and adjust the height and width if needed */
+
+/* Animate the background position of the ground */
+
+/* Keep your existing CSS for .ground img and adjust the height and width if needed */
+
+/* Apply the transform to move the ground backward */
+.ground img {
+    height: 80vh;
+    width: 3400vh;
+    animation: groundMoveBackward 5s linear infinite;
+    /* Adjust the duration as needed */
+}
+
+@keyframes groundMoveBackward {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100vw);
+    }
+}
+
+/* Apply rotation transformation to the wheel elements with the same duration */
+
+.man img{
+    height: 34vh;
+    width: 34vh;
+    position: relative;
+    bottom: 100vh;
+    border-radius: 456vh;
+    left: 34vh;
+}
+
+
+
+
+
+
+
